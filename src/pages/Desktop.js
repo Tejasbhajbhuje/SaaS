@@ -15,6 +15,7 @@ const Desktop = () => {
             </div>
           </div>
         </div>
+        <div>
         <header className="nav-bar-desktop">
           <div className="logo">
             <div className="logodefault">
@@ -35,16 +36,21 @@ const Desktop = () => {
             />
           </div>
           <div className="stack2">
-            <div className="about">About</div>
-            <div className="features">Features</div>
-            <div className="customers">Customers</div>
-            <div className="updates">Updates</div>
-            <div className="help">Help</div>
-            <div className="buttons">
+            <div className="nav-item">About</div>
+            <div className="nav-item">Features</div>
+            <div className="nav-item">Customers</div>
+            <div className="nav-item">Updates</div>
+            <div className="nav-item">Help</div>
+            
+          </div>
+          <div className="buttons">
               <div className="get-for-free">Get for free</div>
             </div>
-          </div>
+            <div className="menu-1">
+              <img src="menu.svg"/>
+            </div>
         </header>
+      </div>
         <section className="pulse-shape">
           <div className="hero">
             <div className="hero-child" />
@@ -112,51 +118,28 @@ const Desktop = () => {
               </div>
             </div>
             <div className="get-free-button-instance">
-              <img
-                className="acme-1-icon"
-                loading="lazy"
-                alt=""
-                src="/acme-1@2x.png"
-              />
-              <img
-                className="quantum-1-icon"
-                loading="lazy"
-                alt=""
-                src="/quantum-1@2x.png"
-              />
-              <div className="echo-1-wrapper">
-                <img
-                  className="echo-1-icon"
-                  loading="lazy"
-                  alt=""
-                  src="/echo-1@2x.png"
-                />
-              </div>
-              <div className="celestia-1-wrapper">
-                <img
-                  className="celestia-1-icon"
-                  loading="lazy"
-                  alt=""
-                  src="/celestia-1@2x.png"
-                />
-              </div>
-              <div className="pulse-1-wrapper">
-                <img
-                  className="pulse-1-icon"
-                  loading="lazy"
-                  alt=""
-                  src="/pulse-1@2x.png"
-                />
-              </div>
-              <div className="divider-shape">
-                <img
-                  className="apex-1-icon"
-                  loading="lazy"
-                  alt=""
-                  src="/apex-1@2x.png"
-                />
-              </div>
-            </div>
+              <ul className="list-icons">
+                <li>
+                  <img src="acme1.png"/>
+                </li>
+                <li>
+                  <img src="quantum1.png"/>
+                </li>
+                <li>
+                  <img src="echo1.png"/>
+                </li>
+                <li>
+                  <img src="celestia1.png"/>
+                </li>
+                <li>
+                  <img src="pulse1.png"/>
+                </li>
+                <li>
+                  <img src="apex1.png"/>
+                </li>
+                
+              </ul>
+             </div>
           </div>
         </section>
         <section className="stack-child">

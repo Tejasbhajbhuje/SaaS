@@ -1,3 +1,10 @@
+.menu-1{
+  display: none;
+}
+.nav-item{
+  color: white;
+}
+
 .icons,
 .this-page-is,
 .view-the-complete {
@@ -169,9 +176,12 @@
 .stack2 {
   box-sizing: border-box;
   max-width: 100%;
+ 
 }
 .stack2 {
+  color: white;
   width: 564px;
+  margin-left: 500px;
   justify-content: center;
   padding: 0 var(--padding-xl);
   gap: var(--gap-5xl);
@@ -546,6 +556,7 @@
   box-sizing: border-box;
 }
 .get-free-button-instance {
+  list-style: none;
   align-self: stretch;
   display: flex;
   flex-direction: row;
@@ -554,6 +565,12 @@
   justify-content: space-between;
   gap: var(--gap-xl);
 }
+.list-icons{
+  display: flex;
+  list-style: none;
+  gap: 58px;
+}
+
 .form-instance-parent,
 .stack-inner {
   display: flex;
@@ -1057,7 +1074,7 @@
 .formfaq3,
 .frame-container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
 .formfaq3 {
   align-self: stretch;
@@ -1089,7 +1106,7 @@
   gap: 47px;
 }
 .footer-social-links-inner {
-  width: 1077px;
+  width: 1300px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -1334,6 +1351,9 @@
   line-height: normal;
   letter-spacing: normal;
 }
+.menu{
+  display: none;
+}
 @media screen and (max-width: 1200px) {
   .frame-parent {
     gap: 33px;
@@ -1346,6 +1366,7 @@
     padding-bottom: var(--padding-99xl);
     box-sizing: border-box;
   }
+  
 }
 @media screen and (max-width: 1050px) {
   .h1 {
@@ -1370,6 +1391,7 @@
     font-size: var(--font-size-24xl);
     line-height: 48px;
   }
+  
 }
 @media screen and (max-width: 750px) {
   .stack2 {
@@ -1415,6 +1437,21 @@
   .footer-s {
     flex-wrap: wrap;
   }
+  .emojistar-1-icon{
+    width: 263px;
+    height: 263px;
+    top: 10px;
+    left: -47px;
+    object-fit: cover;
+  }
+  .helix2-1-icon{
+    width: 268.5px;
+    height: 268.5px;
+    right: -44.7px;
+    bottom: 43.3px;
+    object-fit: contain;
+  }
+  
 }
 @media screen and (max-width: 550px) {
   .h1 {
@@ -1449,6 +1486,9 @@
   .h22 {
     font-size: var(--font-size-13xl);
     line-height: 36px;
+  }
+  .h2-wrapper{
+    
   }
   .faqs,
   .footer-social-links {
@@ -1486,5 +1526,27 @@
   }
   .n-a5{
     padding-left: 20px;
+  }
+  .list-icons{
+    display: inline;
+    list-style: none;
+    gap: 58px;
+  }
+  .made-by{
+    display: none;
+  }
+  .black-horizontal-1-icon{
+    display: none;
+  }
+  .h22{
+    width: 310px;
+  }
+  .buttons{
+    display: none;
+  }
+
+  .menu-1{
+    display: flex;
+    padding-left: 250px;
   }
 }
